@@ -1,0 +1,212 @@
+team,fifa_code,confederation,continent
+Afghanistan,AFG,AFC,Asia
+Albania,ALB,UEFA,Europe
+Algeria,ALG,CAF,Africa
+American Samoa,ASA,OFC,Oceania
+Andorra,AND,UEFA,Europe
+Angola,ANG,CAF,Africa
+Anguilla,AIA,CONCACAF,North America
+Antigua and Barbuda,ATG,CONCACAF,North America
+Argentina,ARG,CONMEBOL,South America
+Armenia,ARM,UEFA,Asia
+Aruba,ARU,CONCACAF,North America
+Australia,AUS,AFC,Oceania
+Austria,AUT,UEFA,Europe
+Azerbaijan,AZE,UEFA,Asia
+Bahamas,BAH,CONCACAF,North America
+Bahrain,BHR,AFC,Asia
+Bangladesh,BAN,AFC,Asia
+Barbados,BRB,CONCACAF,North America
+Belarus,BLR,UEFA,Europe
+Belgium,BEL,UEFA,Europe
+Belize,BLZ,CONCACAF,North America
+Benin,BEN,CAF,Africa
+Bermuda,BER,CONCACAF,North America
+Bhutan,BHU,AFC,Asia
+Bolivia,BOL,CONMEBOL,South America
+Bosnia and Herzegovina,BIH,UEFA,Europe
+Botswana,BOT,CAF,Africa
+Brazil,BRA,CONMEBOL,South America
+British Virgin Islands,VGB,CONCACAF,North America
+Brunei,BRU,AFC,Asia
+Bulgaria,BUL,UEFA,Europe
+Burkina Faso,BFA,CAF,Africa
+Burundi,BDI,CAF,Africa
+Cambodia,CAM,AFC,Asia
+Cameroon,CMR,CAF,Africa
+Canada,CAN,CONCACAF,North America
+Cape Verde,CPV,CAF,Africa
+Cayman Islands,CAY,CONCACAF,North America
+Central African Republic,CTA,CAF,Africa
+Chad,CHA,CAF,Africa
+Chile,CHI,CONMEBOL,South America
+China,CHN,AFC,Asia
+Taiwan,TPE,AFC,Asia
+Colombia,COL,CONMEBOL,South America
+Comoros,COM,CAF,Africa
+Congo,CGO,CAF,Africa
+Cook Islands,COK,OFC,Oceania
+Costa Rica,CRC,CONCACAF,North America
+Croatia,CRO,UEFA,Europe
+Cuba,CUB,CONCACAF,North America
+Curaçao,CUW,CONCACAF,North America
+Cyprus,CYP,UEFA,Asia
+Czech Republic,CZE,UEFA,Europe
+Denmark,DEN,UEFA,Europe
+Djibouti,DJI,CAF,Africa
+Dominica,DMA,CONCACAF,North America
+Dominican Republic,DOM,CONCACAF,North America
+DR Congo,COD,CAF,Africa
+Ecuador,ECU,CONMEBOL,South America
+Egypt,EGY,CAF,Africa
+El Salvador,SLV,CONCACAF,North America
+England,ENG,UEFA,Europe
+Equatorial Guinea,EQG,CAF,Africa
+Eritrea,ERI,CAF,Africa
+Estonia,EST,UEFA,Europe
+Eswatini,SWZ,CAF,Africa
+Ethiopia,ETH,CAF,Africa
+Faroe Islands,FRO,UEFA,Europe
+Fiji,FIJ,OFC,Oceania
+Finland,FIN,UEFA,Europe
+France,FRA,UEFA,Europe
+Gabon,GAB,CAF,Africa
+Gambia,GAM,CAF,Africa
+Georgia,GEO,UEFA,Asia
+Germany,GER,UEFA,Europe
+Ghana,GHA,CAF,Africa
+Gibraltar,GIB,UEFA,Europe
+Greece,GRE,UEFA,Europe
+Grenada,GRN,CONCACAF,North America
+Guam,GUM,AFC,Oceania
+Guatemala,GUA,CONCACAF,North America
+Guinea,GUI,CAF,Africa
+Guinea-Bissau,GNB,CAF,Africa
+Guyana,GUY,CONCACAF,South America
+Haiti,HAI,CONCACAF,North America
+Honduras,HON,CONCACAF,North America
+Hong Kong,HKG,AFC,Asia
+Hungary,HUN,UEFA,Europe
+Iceland,ISL,UEFA,Europe
+India,IND,AFC,Asia
+Indonesia,IDN,AFC,Asia
+Iran,IRN,AFC,Asia
+Iraq,IRQ,AFC,Asia
+Israel,ISR,UEFA,Asia
+Italy,ITA,UEFA,Europe
+Ivory Coast,CIV,CAF,Africa
+Jamaica,JAM,CONCACAF,North America
+Japan,JPN,AFC,Asia
+Jordan,JOR,AFC,Asia
+Kazakhstan,KAZ,UEFA,Asia
+Kenya,KEN,CAF,Africa
+Kosovo,KOS,UEFA,Europe
+Kuwait,KUW,AFC,Asia
+Kyrgyzstan,KGZ,AFC,Asia
+Laos,LAO,AFC,Asia
+Latvia,LVA,UEFA,Europe
+Lebanon,LBN,AFC,Asia
+Lesotho,LES,CAF,Africa
+Liberia,LBR,CAF,Africa
+Libya,LBY,CAF,Africa
+Liechtenstein,LIE,UEFA,Europe
+Lithuania,LTU,UEFA,Europe
+Luxembourg,LUX,UEFA,Europe
+Macau,MAC,AFC,Asia
+Madagascar,MAD,CAF,Africa
+Malawi,MWI,CAF,Africa
+Malaysia,MAS,AFC,Asia
+Maldives,MDV,AFC,Asia
+Mali,MLI,CAF,Africa
+Malta,MLT,UEFA,Europe
+Mauritania,MTN,CAF,Africa
+Mauritius,MRI,CAF,Africa
+Mexico,MEX,CONCACAF,North America
+Moldova,MDA,UEFA,Europe
+Mongolia,MNG,AFC,Asia
+Montenegro,MNE,UEFA,Europe
+Montserrat,MSR,CONCACAF,North America
+Morocco,MAR,CAF,Africa
+Mozambique,MOZ,CAF,Africa
+Myanmar,MYA,AFC,Asia
+Namibia,NAM,CAF,Africa
+Nepal,NEP,AFC,Asia
+Netherlands,NED,UEFA,Europe
+New Caledonia,NCL,OFC,Oceania
+New Zealand,NZL,OFC,Oceania
+Nicaragua,NCA,CONCACAF,North America
+Niger,NIG,CAF,Africa
+Nigeria,NGA,CAF,Africa
+North Korea,PRK,AFC,Asia
+North Macedonia,MKD,UEFA,Europe
+Northern Ireland,NIR,UEFA,Europe
+Norway,NOR,UEFA,Europe
+Oman,OMA,AFC,Asia
+Pakistan,PAK,AFC,Asia
+Palestine,PLE,AFC,Asia
+Panama,PAN,CONCACAF,North America
+Papua New Guinea,PNG,OFC,Oceania
+Paraguay,PAR,CONMEBOL,South America
+Peru,PER,CONMEBOL,South America
+Philippines,PHI,AFC,Asia
+Poland,POL,UEFA,Europe
+Portugal,POR,UEFA,Europe
+Puerto Rico,PUR,CONCACAF,North America
+Qatar,QAT,AFC,Asia
+Republic of Ireland,IRL,UEFA,Europe
+Romania,ROU,UEFA,Europe
+Russia,RUS,UEFA,Europe
+Rwanda,RWA,CAF,Africa
+Saint Kitts and Nevis,SKN,CONCACAF,North America
+Saint Lucia,LCA,CONCACAF,North America
+Saint Vincent and the Grenadines,VIN,CONCACAF,North America
+Samoa,SAM,OFC,Oceania
+San Marino,SMR,UEFA,Europe
+São Tomé and Príncipe,STP,CAF,Africa
+Saudi Arabia,KSA,AFC,Asia
+Scotland,SCO,UEFA,Europe
+Senegal,SEN,CAF,Africa
+Serbia,SRB,UEFA,Europe
+Seychelles,SEY,CAF,Africa
+Sierra Leone,SLE,CAF,Africa
+Singapore,SGP,AFC,Asia
+Slovakia,SVK,UEFA,Europe
+Slovenia,SVN,UEFA,Europe
+Solomon Islands,SOL,OFC,Oceania
+Somalia,SOM,CAF,Africa
+South Africa,RSA,CAF,Africa
+South Korea,KOR,AFC,Asia
+South Sudan,SSD,CAF,Africa
+Spain,ESP,UEFA,Europe
+Sri Lanka,SRI,AFC,Asia
+Sudan,SDN,CAF,Africa
+Suriname,SUR,CONCACAF,South America
+Sweden,SWE,UEFA,Europe
+Switzerland,SUI,UEFA,Europe
+Syria,SYR,AFC,Asia
+Tahiti,TAH,OFC,Oceania
+Tajikistan,TJK,AFC,Asia
+Tanzania,TAN,CAF,Africa
+Thailand,THA,AFC,Asia
+Timor-Leste,TLS,AFC,Asia
+Togo,TOG,CAF,Africa
+Tonga,TGA,OFC,Oceania
+Trinidad and Tobago,TRI,CONCACAF,North America
+Tunisia,TUN,CAF,Africa
+Turkey,TUR,UEFA,Asia
+Turkmenistan,TKM,AFC,Asia
+Turks and Caicos Islands,TCA,CONCACAF,North America
+Uganda,UGA,CAF,Africa
+Ukraine,UKR,UEFA,Europe
+United Arab Emirates,UAE,AFC,Asia
+United States,USA,CONCACAF,North America
+Uruguay,URU,CONMEBOL,South America
+United States Virgin Islands,VIR,CONCACAF,North America
+Uzbekistan,UZB,AFC,Asia
+Vanuatu,VAN,OFC,Oceania
+Venezuela,VEN,CONMEBOL,South America
+Vietnam,VIE,AFC,Asia
+Wales,WAL,UEFA,Europe
+Yemen,YEM,AFC,Asia
+Zambia,ZAM,CAF,Africa
+Zimbabwe,ZIM,CAF,Africa

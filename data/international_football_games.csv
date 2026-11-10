@@ -49453,14 +49453,14 @@ date,home_team,away_team,home_score,away_score,tournament,city,country,neutral
 2026-06-23,England,Ghana,0,0,FIFA World Cup,Foxborough,United States,TRUE
 2026-06-23,Panama,Croatia,0,1,FIFA World Cup,Toronto,Canada,TRUE
 2026-06-24,Bosnia and Herzegovina,Qatar,3,1,FIFA World Cup,Toronto,Canada,TRUE
-2026-06-24,Czechia,Mexico,0,3,FIFA World Cup,Mexico City,Mexico,FALSE
+2026-06-24,Czech Republic,Mexico,0,3,FIFA World Cup,Mexico City,Mexico,FALSE
 2026-06-24,South Africa,South Korea,1,0,FIFA World Cup,Zapopan,Mexico,TRUE
 2026-06-24,Switzerland,Canada,2,1,FIFA World Cup,Vancouver,Canada,FALSE
 2026-06-25,Morocco,Haiti,4,2,FIFA World Cup,Foxborough,United States,TRUE
 2026-06-25,Paraguay,Australia,0,0,FIFA World Cup,Santa Clara,United States,TRUE
 2026-06-25,Scotland,Brazil,0,3,FIFA World Cup,East Rutherford,United States,TRUE
-2026-06-25,Türkiye,United States,3,2,FIFA World Cup,Inglewood,United States,FALSE
-2026-06-26,Curaçao,Côte d'Ivoire,0,2,FIFA World Cup,Houston,United States,TRUE
+2026-06-25,Turkey,United States,3,2,FIFA World Cup,Inglewood,United States,FALSE
+2026-06-26,Curaçao,Ivory Coast,0,2,FIFA World Cup,Houston,United States,TRUE
 2026-06-26,Ecuador,Germany,2,1,FIFA World Cup,Atlanta,United States,TRUE
 2026-06-26,Japan,Sweden,1,1,FIFA World Cup,Seattle,United States,TRUE
 2026-06-26,Norway,France,1,4,FIFA World Cup,Foxborough,United States,TRUE
@@ -49468,20 +49468,20 @@ date,home_team,away_team,home_score,away_score,tournament,city,country,neutral
 2026-06-26,Tunisia,Netherlands,1,3,FIFA World Cup,Kansas City,United States,TRUE
 2026-06-27,Algeria,Austria,3,3,FIFA World Cup,Inglewood,United States,TRUE
 2026-06-27,Cape Verde,Saudi Arabia,0,0,FIFA World Cup,Philadelphia,United States,TRUE
-2026-06-27,Egypt,IR Iran,1,1,FIFA World Cup,Guadalupe,Mexico,TRUE
+2026-06-27,Egypt,Iran,1,1,FIFA World Cup,Guadalupe,Mexico,TRUE
 2026-06-27,Jordan,Argentina,1,3,FIFA World Cup,Santa Clara,United States,TRUE
 2026-06-27,New Zealand,Belgium,1,5,FIFA World Cup,Arlington,United States,TRUE
 2026-06-27,Uruguay,Spain,0,1,FIFA World Cup,Miami Gardens,United States,TRUE
 2026-06-28,Colombia,Portugal,0,0,FIFA World Cup,Miami Gardens,United States,TRUE
-2026-06-28,Congo DR,Uzbekistan,3,1,FIFA World Cup,Atlanta,United States,TRUE
+2026-06-28,DR Congo,Uzbekistan,3,1,FIFA World Cup,Atlanta,United States,TRUE
 2026-06-28,Croatia,Ghana,2,1,FIFA World Cup,Philadelphia,United States,TRUE
 2026-06-28,Panama,England,0,2,FIFA World Cup,East Rutherford,United States,TRUE
 2026-06-29,Brazil,Japan,2,1,FIFA World Cup,Houston,United States,TRUE
 2026-06-29,South Africa,Canada,0,1,FIFA World Cup,Inglewood,United States,TRUE
-2026-06-30,Côte d'Ivoire,Norway,1,2,FIFA World Cup,Arlington,United States,TRUE
+2026-06-30,Ivory Coast,Norway,1,2,FIFA World Cup,Arlington,United States,TRUE
 2026-06-30,Germany,Paraguay,1,1,FIFA World Cup,Foxborough,United States,TRUE
 2026-06-30,Netherlands,Morocco,1,1,FIFA World Cup,Guadalupe,Mexico,TRUE
-2026-07-01,England,Congo DR,2,1,FIFA World Cup,Atlanta,United States,TRUE
+2026-07-01,England,DR Congo,2,1,FIFA World Cup,Atlanta,United States,TRUE
 2026-07-01,France,Sweden,3,0,FIFA World Cup,East Rutherford,United States,TRUE
 2026-07-01,Mexico,Ecuador,2,0,FIFA World Cup,Mexico City,Mexico,FALSE
 2026-07-02,Belgium,Senegal,3,2,FIFA World Cup,Seattle,United States,TRUE
@@ -49507,3 +49507,5 @@ date,home_team,away_team,home_score,away_score,tournament,city,country,neutral
 2026-07-14,France,Spain,0,2,FIFA World Cup,Arlington,United States,TRUE
 2026-07-15,England,Argentina,1,2,FIFA World Cup,Atlanta,United States,TRUE
 2026-07-18,France,England,4,6,FIFA World Cup,Miami Gardens,United States,TRUE
+2026-07-19,Spain,Argentina,1,0,FIFA World Cup,East Rutherford,United States,TRUE
+

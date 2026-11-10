@@ -32,4 +32,4 @@
 - 1000 simulations per World Cup
 - 2018: Belgium 35.5%, France 31.3%, England 16.8% (Actual: France)
 - 2022: Argentina 35.4%, Croatia 30.1%, France 8.4% (Actual: Argentina)
-- 2026: Belgium 7.2%, Ecuador 6.8%, Algeria 6.1%
+- 2026: Spain 29.2%, Argentina 24%, England 23% (Actual: Spain)

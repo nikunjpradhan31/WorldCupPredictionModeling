@@ -51,54 +51,43 @@ def load_model(model_path: str):
 
 def load_raw_wc_matches(cutoff_year: int):
     """Load raw World Cup matches from international_football_games.csv or wc_26.csv."""
-    if cutoff_year == 2026:
-        wc_df = pd.read_csv("data/wc2026dataset/wc_26.csv")
-        wc_df["date"] = pd.to_datetime(wc_df["date"])
-        wc_df = wc_df[wc_df["tournament"] == "FIFA World Cup"].copy()
-        wc_df["match_id"] = (
-            wc_df["date"].astype(str)
-            + "_"
-            + wc_df["home_team"].astype(str).str.replace(" ", "_")
-            + "_"
-            + wc_df["away_team"].astype(str).str.replace(" ", "_")
-            + "_0"
-        )
-        return wc_df
+    games_df = pd.read_csv("data/international_football_games.csv")
+    games_df["date"] = pd.to_datetime(games_df["date"])
+    
+    if cutoff_year == 2018:
+        wc_start = pd.Timestamp("2018-06-14")
+        wc_end = pd.Timestamp("2018-07-15")
+    elif cutoff_year == 2022:
+        wc_start = pd.Timestamp("2022-11-20")
+        wc_end = pd.Timestamp("2022-12-18")
+    elif cutoff_year == 2026:
+        wc_start = pd.Timestamp("2026-06-11")
+        wc_end = pd.Timestamp("2026-07-19")
     else:
-        games_df = pd.read_csv("data/international_football_games.csv")
-        games_df["date"] = pd.to_datetime(games_df["date"])
-        
-        if cutoff_year == 2018:
-            wc_start = pd.Timestamp("2018-06-14")
-            wc_end = pd.Timestamp("2018-07-15")
-        elif cutoff_year == 2022:
-            wc_start = pd.Timestamp("2022-11-20")
-            wc_end = pd.Timestamp("2022-12-18")
-        else:
-            wc_start = pd.Timestamp(f"{cutoff_year}-01-01")
-            wc_end = pd.Timestamp(f"{cutoff_year}-12-31")
-        
-        wc_df = games_df[
-            (games_df["tournament"] == "FIFA World Cup") &
-            (games_df["date"] >= wc_start) &
-            (games_df["date"] <= wc_end)
-        ].copy()
-        
-        wc_df["_match_occurrence"] = (
-            wc_df.groupby(["date", "home_team", "away_team"], dropna=False).cumcount()
-        )
-        wc_df["match_id"] = (
-            wc_df["date"].astype(str)
-            + "_"
-            + wc_df["home_team"].astype(str).str.replace(" ", "_")
-            + "_"
-            + wc_df["away_team"].astype(str).str.replace(" ", "_")
-            + "_"
-            + wc_df["_match_occurrence"].astype(str)
-        )
-        wc_df.drop(columns="_match_occurrence", inplace=True)
-        
-        return wc_df
+        wc_start = pd.Timestamp(f"{cutoff_year}-01-01")
+        wc_end = pd.Timestamp(f"{cutoff_year}-12-31")
+    
+    wc_df = games_df[
+        (games_df["tournament"] == "FIFA World Cup") &
+        (games_df["date"] >= wc_start) &
+        (games_df["date"] <= wc_end)
+    ].copy()
+    
+    wc_df["_match_occurrence"] = (
+        wc_df.groupby(["date", "home_team", "away_team"], dropna=False).cumcount()
+    )
+    wc_df["match_id"] = (
+        wc_df["date"].astype(str)
+        + "_"
+        + wc_df["home_team"].astype(str).str.replace(" ", "_")
+        + "_"
+        + wc_df["away_team"].astype(str).str.replace(" ", "_")
+        + "_"
+        + wc_df["_match_occurrence"].astype(str)
+    )
+    wc_df.drop(columns="_match_occurrence", inplace=True)
+    
+    return wc_df
 
 
 def get_team_features_for_match(team_history, team, cutoff_date):
@@ -228,7 +217,7 @@ def create_match_features(home_feats, away_feats, neutral, historical_upset_rate
     return row
 
 
-def generate_wc_match_features(cutoff_year, cutoff_date, model_artifacts):
+def generate_wc_match_features(cutoff_year, cutoff_date):
     """Generate features for all WC matches using team history up to cutoff."""
     print(f"Generating features for {cutoff_year} WC matches...")
     

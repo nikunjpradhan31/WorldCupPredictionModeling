@@ -1,7 +1,5 @@
 #python fifa_match_scraper.py --date-from 2024-01-01 --date-till 2024-01-31 -o matches.csv
 
-from __future__ import annotations
-
 import argparse
 import asyncio
 import csv
